@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa75d70c.css",
-    "main.js": "/static/js/main.32a65592.js",
-    "index.html": "/index.html",
-    "main.fa75d70c.css.map": "/static/css/main.fa75d70c.css.map",
-    "main.32a65592.js.map": "/static/js/main.32a65592.js.map"
+    "main.css": "/agri-support/static/css/main.fa75d70c.css",
+    "main.js": "/agri-support/static/js/main.ce6619fc.js",
+    "index.html": "/agri-support/index.html",
+    "main.fa75d70c.css.map": "/agri-support/static/css/main.fa75d70c.css.map",
+    "main.ce6619fc.js.map": "/agri-support/static/js/main.ce6619fc.js.map"
   },
   "entrypoints": [
     "static/css/main.fa75d70c.css",
-    "static/js/main.32a65592.js"
+    "static/js/main.ce6619fc.js"
   ]
 }

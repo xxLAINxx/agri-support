@@ -8,7 +8,11 @@ export default function App() {
       <header className="header">
         <div className="container header-container">
           <h1 className="logo">
-            <img src="../image/fuushin-logo.jpg"></img>風新アグリサポート
+            <img
+              src={`${process.env.PUBLIC_URL}/image/fuushin-logo.jpg`}
+              alt="ロゴ"
+            />
+            風新アグリサポート
           </h1>
           <nav className="nav">
             <ul>
@@ -115,7 +119,10 @@ export default function App() {
             <div className="contact-info">
               <h3>LINE</h3>
               <a href="https://line.me/ti/p/qA2-blyG_7">
-                <img src="../image/fuushin.jpg"/>
+                <img
+                  src={`${process.env.PUBLIC_URL}/image/fuushin.jpg`}
+                  alt="LINE QR"
+                />
               </a>
             </div>
           </div>
