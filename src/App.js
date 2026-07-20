@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
+import landscapeImage from "./assets/landscape.jpg";
 
 export default function App() {
   return (
@@ -31,7 +32,9 @@ export default function App() {
       </header>
 
       {/* メインビジュアル */}
-      <section className="hero">
+      <section className="hero"
+       style={{ backgroundImage: `url(${landscapeImage})` }}
+       >
         <div className="hero-text">
           <h2>日本の農業の未来を支える</h2>
           <p>確かな技術と信頼で、地域の営農を強力にサポートします。</p>
@@ -107,7 +110,7 @@ export default function App() {
             <div className="contact-info">
               <h3>お電話・メール</h3>
               <p>
-                <strong>お電話：</strong> 000-000-0000
+                <strong>お電話：</strong> 080-5720-5154
               </p>
               <p>
                 <strong>メール：</strong> bonco3207@gmail.com
@@ -115,15 +118,6 @@ export default function App() {
               <p>
                 <strong>受付時間：</strong> 平日 9:00 〜 18:00
               </p>
-            </div>
-            <div className="contact-info">
-              <h3>LINE</h3>
-              <a href="https://line.me/ti/p/qA2-blyG_7">
-                <img
-                  src={`${process.env.PUBLIC_URL}/image/fuushin.jpg`}
-                  alt="LINE QR"
-                />
-              </a>
             </div>
           </div>
         </div>
