@@ -48,16 +48,20 @@
   justify-content: space-between;
   align-items: center;
   height: 70px;
+  h1 {
+    font-size: clamp(20px, 5vw, 50px);
+  }
 }
 .logo {
   display: flex;
-  font-size: 1.5rem;
   justify-content: center;
   color: #2e7d32;
   margin: 0;
 
   img {
     width: 40px;
+    height: 40px;
+    align-self: center;
   }
 }
 .nav ul {

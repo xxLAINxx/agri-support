@@ -7,7 +7,7 @@ export default function App() {
     <div className="app-container">
       {/* ヘッダー */}
       <header className="header">
-        <div className="container header-container">
+        <div className="header-container">
           <h1 className="logo">
             <img
               src={`${process.env.PUBLIC_URL}/image/fuushin-logo.jpg`}
@@ -57,7 +57,7 @@ export default function App() {
               </tr>
               <tr>
                 <th>所在地</th>
-                <td>河東郡音更町大通り12丁目14-2</td>
+                <td>北海道河東郡音更町大通12丁目14-2</td>
               </tr>
               <tr>
                 <th>設立</th>
