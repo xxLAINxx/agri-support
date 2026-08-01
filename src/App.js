@@ -110,10 +110,13 @@ export default function App() {
             <div className="contact-info">
               <h3>お電話・メール</h3>
               <p>
-                <strong>お電話：</strong> 080-5720-5154
+                <strong>　　電話：</strong> 0155-29-1208
               </p>
               <p>
-                <strong>メール：</strong> bonco3207@gmail.com
+                <strong>　　携帯：</strong> 080-5720-5154
+              </p>
+              <p>
+                <strong>　メール：</strong> bonco3207@gmail.com
               </p>
               <p>
                 <strong>受付時間：</strong> 平日 9:00 〜 18:00
