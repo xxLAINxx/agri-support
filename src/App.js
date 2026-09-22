@@ -110,7 +110,7 @@ export default function App() {
             <div className="contact-info">
               <h3>お電話・メール</h3>
               <p>
-                <strong>　　電話：</strong> 0155-29-1208
+                <strong>　　電話：</strong> 0155-65-4422
               </p>
               <p>
                 <strong>　　携帯：</strong> 080-5720-5154
